@@ -11,6 +11,7 @@
   --bg-color: #f0eaea;
   --text-color: #2a2626;
   --primary-color: #91beee;
+  --modal-bg: rgb(252, 236, 236);
 }
 
 /* Тёмная тема */
@@ -18,6 +19,7 @@
   --bg-color: #2a2626;
   --text-color: #f0eaea;
   --primary-color: #345b7b;
+  --modal-bg: rgb(107, 99, 99);
 }
 #root {
   padding: 0;
