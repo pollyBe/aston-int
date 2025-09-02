@@ -1,7 +1,33 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Светлая тема */
+.app.light {
+  --bg-color: #f0eaea;
+  --text-color: #2a2626;
+  --primary-color: #91beee;
+}
+
+/* Тёмная тема */
+.app.dark {
+  --bg-color: #2a2626;
+  --text-color: #f0eaea;
+  --primary-color: #345b7b;
+}
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 0;
+  margin: 0;
   text-decoration: none;
   list-style-type: none;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+body {
+  margin: 0;
+  padding: 0;
 }
