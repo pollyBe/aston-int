@@ -1,13 +1,15 @@
 import { Footer } from "@/widgets/LayoutFooter/Footer"
 import { Header } from "@/widgets/LayoutHeader/Header"
-import { Outlet } from "react-router"
 
+interface MainLayoutProps {
+  children: React.ReactNode
+}
 
-export const MainLayout = () => {
+export const MainLayout = ({children}: MainLayoutProps) => {
   return (
     <>
       <Header />
-      <Outlet />
+      {children}
       <Footer />
     </>
   )
