@@ -1,0 +1,36 @@
+.cardWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 30%;
+  height: 18.75rem;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(57, 36, 36);
+  margin-bottom: 1rem;
+}
+.cardTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(15, 15, 55);
+}
+.imgWrap {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+img {
+  object-fit: contain;
+}
+.cardDescription {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(21, 21, 88);
+}
+.imgDefault {
+  background-color: rgb(137, 48, 102);
+  width: 100%;
+  height: 100%;
+}
