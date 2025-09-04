@@ -1,5 +1,6 @@
 import { createContext } from "react";
 
+
 export type Theme = "light" | "dark";
 
 interface ThemeContextProps {
@@ -8,3 +9,4 @@ interface ThemeContextProps {
 }
 
 export const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
+
