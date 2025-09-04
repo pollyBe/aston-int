@@ -20,13 +20,16 @@
   z-index: 1000;
 }
 
-.close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: var(--text-color);
+body .modal-open {
+  overflow: hidden;
+}
+.header,
+.body,
+.footer {
+  padding: 16px;
+}
+
+.footer {
+  border-top: 1px solid var(--text-color);
+  text-align: right;
 }

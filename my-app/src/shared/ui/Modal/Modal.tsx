@@ -17,9 +17,18 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
     return () => document.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+    return () => document.body.classList.remove("modal-open");
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
-  const { overlay, modal, close } = styles;
+  const { overlay, modal } = styles;
 
   return ReactDOM.createPortal(
     <div className={overlay} onClick={onClose}>
@@ -27,9 +36,6 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
         className={modal}
         onClick={(e) => e.stopPropagation()}
       >
-        <button className={close} onClick={onClose}>
-          ×
-        </button>
         {children}
       </div>
     </div>,

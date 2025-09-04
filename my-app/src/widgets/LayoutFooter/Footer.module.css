@@ -15,3 +15,13 @@ footer {
   width: 25%;
   align-items: center;
 }
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-color);
+}
