@@ -1,3 +1,4 @@
+import { CardTitle } from './CardTitle';
 import { CommentList } from './CommentList';
 import styles from './PostCard.module.css';
 
@@ -29,7 +30,7 @@ export const PostCard = ({
 
   return (
     <div className={cardWrap}>
-      <h2 className={cardTitle}>{title}</h2>
+      <CardTitle cardTitle={cardTitle} title={title} />
       <div className={imgWrap}>
         {img ? <img src={img} alt={title} /> : <div className={imgDefault}></div>}
       </div>

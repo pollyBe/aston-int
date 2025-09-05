@@ -1,7 +1,7 @@
 export const posts = [
   {
     id: 1,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum do',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -12,7 +12,7 @@ export const posts = [
   },
   {
     id: 2,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ip',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -20,7 +20,7 @@ export const posts = [
   },
   {
     id: 3,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum dolor sit amet consectetur adipisicing',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -28,7 +28,7 @@ export const posts = [
   },
   {
     id: 4,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem sit amet',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -51,7 +51,7 @@ export const posts = [
   },
   {
     id: 5,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum dolor sit amet elit',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -67,7 +67,7 @@ export const posts = [
   },
   {
     id: 7,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum dolor sit amet  ab quod.',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -75,7 +75,7 @@ export const posts = [
   },
   {
     id: 8,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum dolor sit amet oluptatibus',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',
@@ -83,7 +83,7 @@ export const posts = [
   },
   {
     id: 9,
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Lorem ipsum dolor amet',
     img: '',
     description:
       'lorem consectetur adipisicing elit. Ipsa consequatur delectus ab quod. Necessitatibus culpa aliquid tempora provident dolor nostrum assumenda numquam odit laborum? Sequi nobis voluptatibus non quis beatae.',

@@ -8,6 +8,7 @@
 
 /* Светлая тема */
 body.light {
+  --bg-input-color: #ada0a0;
   --card-bg: rgba(255, 255, 255, 0);
   --card-comments-bg: rgba(255, 255, 255, 0.836);
   --header-bg: rgb(189, 171, 206);
@@ -19,6 +20,7 @@ body.light {
 
 /* Тёмная тема */
 body.dark {
+  --bg-input-color: #625050e4;
   --card-bg: rgba(78, 71, 71, 0.964);
   --card-comments-bg: rgba(78, 71, 71, 0.826);
   --header-bg: rgb(58, 51, 65);
