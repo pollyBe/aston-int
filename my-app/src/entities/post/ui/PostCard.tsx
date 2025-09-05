@@ -1,23 +1,45 @@
-import styles from './PosstCard.module.css'
-interface PostCardProps {
-  title: string,
-  img: string,
-  description: string,
+import { CommentList } from './CommentList';
+import styles from './PostCard.module.css';
+
+interface Comment {
+  userName: string;
+  comment: string;
 }
 
-export const PostCard = ({ title, img, description }: PostCardProps) => {
+interface PostCardProps {
+  id: number;
+  title: string;
+  img: string;
+  description: string;
+  comments: Comment[];
+  isOpen: boolean;
+  onToggle: (id: number) => void;
+}
+
+export const PostCard = ({
+  id,
+  title,
+  img,
+  description,
+  comments,
+  isOpen,
+  onToggle
+}: PostCardProps) => {
   const { cardWrap, cardTitle, imgWrap, cardDescription, imgDefault } = styles;
+
   return (
     <div className={cardWrap}>
-    <h2 className={cardTitle}>{title}</h2>
-    <div className={imgWrap}>
-      {img ? (
-        <img src={img} alt={title} />
-      ) : (
-        <div className={imgDefault}></div>
-      )}
+      <h2 className={cardTitle}>{title}</h2>
+      <div className={imgWrap}>
+        {img ? <img src={img} alt={title} /> : <div className={imgDefault}></div>}
+      </div>
+      <p className={cardDescription}>{description}</p>
+
+      <CommentList
+        comments={comments}
+        isOpen={isOpen}
+        onToggle={() => onToggle(id)}
+      />
     </div>
-    <p className={cardDescription}>{description}</p>
-  </div>
-  )
-}
+  );
+};

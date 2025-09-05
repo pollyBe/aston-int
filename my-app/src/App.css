@@ -9,6 +9,7 @@
 /* Светлая тема */
 body.light {
   --card-bg: rgba(255, 255, 255, 0);
+  --card-comments-bg: rgba(255, 255, 255, 0.836);
   --header-bg: rgb(189, 171, 206);
   --bg-color: #f0eaea;
   --text-color: #2a2626;
@@ -19,6 +20,7 @@ body.light {
 /* Тёмная тема */
 body.dark {
   --card-bg: rgba(78, 71, 71, 0.964);
+  --card-comments-bg: rgba(78, 71, 71, 0.826);
   --header-bg: rgb(58, 51, 65);
   --bg-color: #2a2626;
   --text-color: #f0eaea;

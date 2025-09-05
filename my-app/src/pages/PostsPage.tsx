@@ -1,5 +1,5 @@
 import { posts } from "@/shared/lib/mocks/mocks"
-import { PostsList } from "@/widgets/PostsList/index.ts"
+import { PostsListWithLoading } from "@/widgets/PostsList/index.ts"
 import styles from './PostsPage.module.css'
 import { useEffect, useState } from "react";
 
@@ -17,7 +17,7 @@ export const PostsPage = () => {
   return (
     <section className={container}>
       <h1 className={title}>Posts</h1>
-      <PostsList isLoading={isLoading} data={posts} />
+      <PostsListWithLoading isLoading={isLoading} data={posts} />
     </section>
   )
 }
