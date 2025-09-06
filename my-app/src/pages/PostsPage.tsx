@@ -1,4 +1,4 @@
-import { posts } from "@/shared/lib/mocks/mocks"
+import { posts } from "@/shared/lib/mocks/posts"
 import { PostsListWithLoading } from "@/widgets/PostsList/index.ts"
 import styles from './PostsPage.module.css'
 import { useEffect, useState } from "react";

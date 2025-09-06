@@ -1,6 +1,7 @@
 export const posts = [
   {
     id: 1,
+    userId: 1,
     title: 'Lorem ipsum do',
     img: '',
     description:
@@ -12,6 +13,7 @@ export const posts = [
   },
   {
     id: 2,
+    userId: 2,
     title: 'Lorem ip',
     img: '',
     description:
@@ -20,6 +22,7 @@ export const posts = [
   },
   {
     id: 3,
+    userId: 2,
     title: 'Lorem ipsum dolor sit amet consectetur adipisicing',
     img: '',
     description:
@@ -28,6 +31,7 @@ export const posts = [
   },
   {
     id: 4,
+    userId: 3,
     title: 'Lorem sit amet',
     img: '',
     description:
@@ -51,6 +55,7 @@ export const posts = [
   },
   {
     id: 5,
+    userId: 1,
     title: 'Lorem ipsum dolor sit amet elit',
     img: '',
     description:
@@ -59,6 +64,7 @@ export const posts = [
   },
   {
     id: 6,
+    userId: 3,
     title: 'Lorem ipsum dolor sit amet',
     img: '',
     description:
@@ -67,6 +73,7 @@ export const posts = [
   },
   {
     id: 7,
+    userId: 2,
     title: 'Lorem ipsum dolor sit amet  ab quod.',
     img: '',
     description:
@@ -75,6 +82,7 @@ export const posts = [
   },
   {
     id: 8,
+    userId: 1,
     title: 'Lorem ipsum dolor sit amet oluptatibus',
     img: '',
     description:
@@ -83,6 +91,7 @@ export const posts = [
   },
   {
     id: 9,
+    userId: 1,
     title: 'Lorem ipsum dolor amet',
     img: '',
     description:
