@@ -1,7 +1,43 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Светлая тема */
+body.light {
+  --bg-input-color: #ada0a0;
+  --card-bg: rgba(255, 255, 255, 0);
+  --card-comments-bg: rgba(255, 255, 255, 0.836);
+  --header-bg: rgb(189, 171, 206);
+  --bg-color: #f0eaea;
+  --text-color: #2a2626;
+  --primary-color: #91beee;
+  --modal-bg: rgb(234, 227, 227);
+}
+
+/* Тёмная тема */
+body.dark {
+  --bg-input-color: #625050e4;
+  --card-bg: rgba(78, 71, 71, 0.964);
+  --card-comments-bg: rgba(78, 71, 71, 0.826);
+  --header-bg: rgb(58, 51, 65);
+  --bg-color: #2a2626;
+  --text-color: #f0eaea;
+  --primary-color: #345b7b;
+  --modal-bg: rgb(85, 82, 82);
+}
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 0;
+  margin: 0;
   text-decoration: none;
   list-style-type: none;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+body {
+  margin: 0;
+  padding: 0;
 }
