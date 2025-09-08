@@ -1,0 +1,32 @@
+/* Светлая тема */
+body.light {
+  --card-bg: rgba(255, 255, 255, 0);
+  --header-bg: rgb(189, 171, 206);
+  --bg-color: #f0eaea;
+  --text-color: #2a2626;
+  --primary-color: #91beee;
+  --modal-bg: rgb(234, 227, 227);
+}
+
+/* Тёмная тема */
+body.dark {
+  --card-bg: rgba(78, 71, 71, 0.964);
+  --header-bg: rgb(58, 51, 65);
+  --bg-color: #2a2626;
+  --text-color: #f0eaea;
+  --primary-color: #345b7b;
+  --modal-bg: rgb(85, 82, 82);
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
