@@ -1,9 +1,11 @@
 header {
-  padding: 0.75rem;
+  padding: 0.4rem;
   background-color: var(--header-bg);
   color: var(--text-color);
 }
 .container {
+  width: 95%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,6 +1,5 @@
 .container {
   padding: 1rem;
-  min-height: 80vh;
 }
 .title {
   color: var(--text-color);
