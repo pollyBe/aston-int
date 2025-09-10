@@ -1,0 +1,15 @@
+.tabs {
+  display: flex;
+  gap: 12px;
+}
+
+.tab {
+  padding: 8px 12px;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.activeTab {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary-color);
+}

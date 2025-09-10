@@ -1,0 +1,10 @@
+.container {
+  margin: 1rem 2rem;
+}
+.usersWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  cursor: pointer;
+}

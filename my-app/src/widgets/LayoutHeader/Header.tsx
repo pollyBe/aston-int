@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <div className={container}>
-        <p>My-app</p>
+        <div>My-app</div>
         <div className={rightWrap}>
           <ThemeSwitcher/>
           <p>How you doin'?</p>

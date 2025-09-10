@@ -1,5 +1,11 @@
+import { GoBack } from "@/shared/ui/goBack/GoBack"
+
 export const UserTodos = () => {
+
   return (
-    <div>user todos</div>
+    <>
+    <GoBack/>
+      <div>user todos</div>
+      </>
   )
 }

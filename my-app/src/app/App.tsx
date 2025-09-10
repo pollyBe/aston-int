@@ -5,8 +5,8 @@ import { routes } from './providers/router/routes'
 
 function App() {
   return (
-       <MainLayout>
-        <RouterProvider router={routes}/>
+      <MainLayout>
+        <RouterProvider router={routes}></RouterProvider>
       </MainLayout>
   )
 }

@@ -3,6 +3,7 @@ import { HomePage } from '@/pages/HomePage'
 import { PostPage } from '@/pages/PostPage'
 import { PostsPage } from '@/pages/PostsPage'
 import { UserAlbum } from '@/pages/UserAlbum'
+import { UserPage } from '@/pages/UserPage'
 import { UserPosts } from '@/pages/UserPosts'
 import { UsersPage } from '@/pages/UsersPage'
 import { UserTodos } from '@/pages/UserTodos'
@@ -22,6 +23,10 @@ export const routes = createBrowserRouter([
   {
     path: '/users',
     Component: UsersPage,
+  },
+  {
+    path: '/users/:id',
+    Component: UserPage,
     children: [
       {
         path: '/users/:id/albums',
