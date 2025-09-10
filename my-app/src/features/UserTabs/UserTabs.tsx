@@ -5,9 +5,9 @@ export const UserTabs = () => {
   const { id } = useParams();
 
   const tabs = [
-    { to: `/users/${id}/albums`, label: "Альбомы" },
-    { to: `/users/${id}/todos`, label: "Задачи" },
-    { to: `/users/${id}/posts`, label: "Посты" },
+    { to: `/users/${id}/albums`, label: "Albums" },
+    { to: `/users/${id}/todos`, label: "Todos" },
+    { to: `/users/${id}/posts`, label: "Posts" },
   ];
 
   return (
